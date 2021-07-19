@@ -9,8 +9,8 @@ spring:
       discovery:
         healthCheckPath: /health
         healthCheckInterval: 5s
-        register: true
+        register: false
         health-check-timeout: 5s
 
 server:
-  port: 8081
+  port: 9091
